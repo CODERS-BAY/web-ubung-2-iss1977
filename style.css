@@ -1,0 +1,112 @@
+html{
+    font-size: 120%; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+   
+}
+
+/*Formatting the nav bar*/
+
+nav{
+    width: 80%;
+    
+    margin: auto;
+    border: 3px grey solid;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    padding: 1em 1em;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:visited{
+    color: inherit;
+}
+
+nav ul li:hover{
+    border: 1px black solid;
+    box-sizing: border-box;
+    
+}
+
+.activ{
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/*Formatting the image*/
+main div{
+    text-align: center;
+}
+img{
+    width: 30%;
+    height: auto;
+}
+
+
+/* Article formatting */
+
+article{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border: 1px rgb(71, 71, 71) solid;
+    margin-top: 3rem;
+    border-radius: 10px;
+
+ /* Background gradient wurde mit online tool generiert*/   
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+article p {
+    width: 90%;
+    margin: auto;
+}
+
+/*Blockquote styling*/
+blockquote p{
+    font-style: italic;
+    padding-left: 20px;
+}
+
+blockquote{
+    border: 1px rgb(65, 65, 65) dotted;
+}
+
+/* Formnatting aside tag*/
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
