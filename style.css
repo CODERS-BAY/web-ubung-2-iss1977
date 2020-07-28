@@ -39,10 +39,10 @@ a:visited{
     color: inherit;
 }
 
+
 nav ul li:hover{
     border: 1px black solid;
-    box-sizing: border-box;
-    
+    background-color: lightblue;
 }
 
 .activ{
